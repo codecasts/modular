@@ -28,7 +28,7 @@ return [
     |
     */
 
-    'model' => Codecasts\User::class,
+    'model' => Codecasts\Auth\User::class,
 
     /*
     |--------------------------------------------------------------------------

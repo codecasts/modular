@@ -140,9 +140,15 @@ return [
         /*
          * Application Service Providers...
          */
-        Codecasts\Providers\AppServiceProvider::class,
-        Codecasts\Providers\EventServiceProvider::class,
-        Codecasts\Providers\RouteServiceProvider::class,
+        Codecasts\Core\Providers\AppServiceProvider::class,
+        Codecasts\Core\Providers\EventServiceProvider::class,
+        Codecasts\Core\Providers\RouteServiceProvider::class,
+
+        /*
+         * Auth Service Providers...
+         */
+        Codecasts\Auth\Providers\AuthServiceProvider::class,
+        Codecasts\Auth\Providers\RouteServiceProvider::class,
 
     ],
 

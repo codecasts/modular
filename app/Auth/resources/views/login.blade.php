@@ -1,0 +1,1 @@
+{{ trans('auth::login.login') }}
