@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Events;
+namespace Codecasts\Events;
 
 abstract class Event
 {
